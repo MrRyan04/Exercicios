@@ -50,4 +50,4 @@ Conceitos explorados neste desafio:
 Modelagem de um banco de dados, utilizando-se das 3 formas normais;
 Utilização da linguagem SQL para criação e inserção de dados;
 Diagrama DER;
-Consultas;
+Consultas.
