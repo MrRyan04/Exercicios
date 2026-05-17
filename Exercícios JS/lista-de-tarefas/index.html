@@ -9,9 +9,18 @@
 <body>
     <h1><strong>Lista de tarefas</strong></h1>
     <main id="princ">
-        <div class="input"><input type="text" name="" id="adc" placeholder="Adicionar tarefa">
-       <button onclick="add()" id="bot"><strong>+</strong></button>
+       <div class="bloco1">
+         <input type="text" name="" id="adc" placeholder="Adicionar tarefa">
+         <button onclick="add()" id="bot"><strong>+</strong></button>
+         <button onclick="remove()" id="bot2"><strong>-</strong></button>
         </div>
+        <!--botão e input de remover que ficara oculto --> 
+        <div class="remocao">
+            <input type="number" id="inputRemove" min="1" placeholder="Numero da tarefa">
+            <button id="cancelar" onclick="cancelar()">X</button>
+            <button id="botremover" onclick="deletar()">Remover</button>
+        </div>
+
         </main>
 
     <script src="assets/js/lista.js"></script>

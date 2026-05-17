@@ -26,7 +26,8 @@ main {
 .input {
     margin: auto;
     width: 60%;
-    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 p{
@@ -54,4 +55,12 @@ button {
     width: 30px;
     height: 30px;
     
+}
+
+.remocao {
+    display: none;
+}
+
+#botremover {
+    width: 100px;
 }
